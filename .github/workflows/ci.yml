@@ -50,5 +50,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/github-cloud-lab:latest
-            ghcr.io/${{ github.repository_owner }}/github-cloud-lab:${{ github.sha }}
+            ghcr.io/nikitaevchuk/github-cloud-lab:latest
+            ghcr.io/nikitaevchuk/github-cloud-lab:${{ github.sha }}
